@@ -1,0 +1,94 @@
+body {
+  color: #d0c4ab;
+  font-family: "Arimo","sans-serif";
+}
+
+header {
+  background: white;
+  color: #131a2d;
+}
+
+main {
+  padding-top: 20px;
+  background: #131a2d;
+  color: #d0c4ab;
+}
+
+a {
+  color: #807c74;
+}
+
+.main-content {
+  padding: 0px 20px 0px 20px;
+  background: #131a2d;
+  color: #d0c4ab;
+}
+
+.title-logo {
+  padding-bottom: 10px;
+  padding-top: 20px;   
+}
+
+.title-super {
+  font-size: 60px;
+  font-weight: 900;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.title-sub {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.content-title {
+  padding: 20px 0px 5px 10px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.work-title {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+hr.break {
+  margin-top: 0px;
+  padding: 0;
+  border: none;
+  border-top: 5px solid #d0c4ab;
+  color: #d0c4ab;
+  text-align: center;
+}
+
+.add-bottom {
+  padding-bottom: 10px;
+}
+
+#ninja {
+  background-image: url(//placepuppy.it/100/100);
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 480px) {
+  .title-super {
+    font-size: 32px;
+    text-align: center;
+  }
+  .title-sub {
+    font-size: 16px;
+    text-align: center;
+  }
+  .title-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
