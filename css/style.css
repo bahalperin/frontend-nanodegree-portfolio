@@ -69,12 +69,6 @@ hr.break {
   padding-bottom: 10px;
 }
 
-#ninja {
-  background-image: url(//placepuppy.it/100/100);
-  height: 100px;
-  width: 100px;
-}
-
 @media (max-width: 480px) {
   .title-super {
     font-size: 32px;
